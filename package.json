@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
-    "deploy": "pm2 start index.js --name 'task(5000)' --max-memory-restart 2500M"
   },
   "keywords": [],
   "author": "",
